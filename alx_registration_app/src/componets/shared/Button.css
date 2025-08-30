@@ -1,0 +1,24 @@
+.custom-button {
+  background: linear-gradient(#FF6B00, #FF4500);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px #FF6B00;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  width: 100%;
+  max-width: 300px;
+}
+
+.custom-button:hover {
+  box-shadow: 0 0 24px #FF6B00;
+}
+
+.arrow {
+  margin-left: 12px;
+}
