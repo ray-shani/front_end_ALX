@@ -1,0 +1,32 @@
+.checkin-container {
+  composes: page-card;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkin-container h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #ff6b00;
+}
+
+.hub-select,
+.status-select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.hub-select:focus,
+.status-select:focus {
+  outline: none;
+  border-color: #ff6b00;
+  box-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
+}
