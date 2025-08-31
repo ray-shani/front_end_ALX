@@ -1,12 +1,5 @@
-# dependencies
 node_modules/
-.pnp
-.pnp.js
-
-# build
 dist/
-
-# misc
 .DS_Store
 .env
 .env.local

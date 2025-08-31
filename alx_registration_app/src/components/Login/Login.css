@@ -1,45 +1,10 @@
 .login-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 40px;
-  width: 100%;
-  max-width: 500px;
+  padding: 20px;
   background-color: #242424;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
 }
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.forgot-link {
-  color: #FF6B00;
-  font-size: 16px;
-  align-self: flex-end;
-  margin-bottom: 25px;
-  text-decoration: none;
-}
-
-.sign-in-with {
-  font-size: 14px;
-  color: #888;
-  margin: 25px 0;
-}
-
-.create-account-link {
-  color: #FF6B00;
-  font-size: 16px;
-  margin-top: 20px;
-  text-decoration: none;
-}
-
-@media (max-width: 600px) {
-  .login-container {
-    max-width: 100%;
-    padding: 40px 20px;
-    border-radius: 0;
-  }
+  font-size: 24px;
 }

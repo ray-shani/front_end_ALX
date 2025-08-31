@@ -7,10 +7,9 @@ import BackButton from '../shared/BackButton';
 const ForgotPassword = () => {
   return (
     <div className="forgot-container">
-      <h1>Forgot password?</h1>
-      <Input type="email" placeholder="Enter your email address" icon="user" />
-      <p className="info">We will send you a message to set or reset your new password</p>
-      <Button text="Send Code" arrow />
+      <h1>Forgot Password?</h1>
+      <Input placeholder="Email" />
+      <Button text="Send Code" />
       <BackButton />
     </div>
   );
