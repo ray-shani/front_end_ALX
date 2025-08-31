@@ -1,7 +1,23 @@
+/* App.css */
 .app-container {
-  height: 100vh;
-  background-color: #1E1E1E;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.page-card {
+  background: #2a2a2a;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.page-card:hover {
+  transform: translateY(-5px);
 }

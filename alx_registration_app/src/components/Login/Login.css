@@ -1,10 +1,15 @@
-.login-container {
-  padding: 20px;
-  background-color: #242424;
-  color: white;
-  text-align: center;
+/* .login-container {
+  composes: page-card;
+} */
+
+.login-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #ff6b00;
 }
 
-h1 {
-  font-size: 24px;
+.login-container a {
+  display: block;
+  margin: 15px 0;
+  font-size: 14px;
 }

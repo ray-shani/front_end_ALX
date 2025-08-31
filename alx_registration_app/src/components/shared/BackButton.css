@@ -1,7 +1,13 @@
 .back-button {
   background: none;
   border: none;
-  color: #888;
+  color: #ffa65c;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: #ff6b00;
 }

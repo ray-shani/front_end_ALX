@@ -1,4 +1,29 @@
-body {
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  color: #fff;
+  min-height: 100vh;
+}
+
+a {
+  color: #ff6b00;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffa65c;
+}
+
+h1 {
+  font-weight: 700;
 }
