@@ -14,6 +14,7 @@ const Login = () => {
       <Link to="/forgot">Forgot Password?</Link>
       <Button text="Sign In" />
       <Link to="/register">Create an account</Link>
+      <Button text="Sign In" onClick={() => navigate('/landing')} />
       <BackButton />
     </div>
   );
